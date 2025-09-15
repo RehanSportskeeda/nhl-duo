@@ -323,10 +323,10 @@ function App() {
       />
 
       {/* Main Content with Sidebar */}
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-2 sm:px-4">
         <div className="flex flex-col lg:flex-row gap-0 justify-center items-start">
           {/* Main Content Area */}
-          <div className="flex-1 max-w-xl">
+          <div className="flex-1 max-w-xl px-1 sm:px-0">
             {/* Tab Content */}
             {activeTab === 'game' && (
         <GameTab

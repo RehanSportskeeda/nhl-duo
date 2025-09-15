@@ -114,8 +114,8 @@ Can you beat my time? Play now:`;
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-      <div className="bg-white rounded-2xl shadow-2xl max-w-lg w-full mx-auto p-6 space-y-6 relative">
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-2 sm:p-4">
+      <div className="bg-white rounded-2xl shadow-2xl max-w-lg w-full mx-auto p-4 sm:p-6 space-y-6 relative">
         {/* Header */}
         <div className="bg-gradient-to-r from-gray-800 to-black rounded-xl p-6 text-center -mx-6 -mt-6 mb-6">
           <button

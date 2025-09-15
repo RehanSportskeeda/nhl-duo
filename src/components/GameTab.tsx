@@ -62,7 +62,7 @@ const GameTab: React.FC<GameTabProps> = ({
   if (!isLoggedIn) {
     return (
       <>
-        <div className="container mx-auto px-4 py-8">
+        <div className="container mx-auto px-1 sm:px-4 py-8">
           <div className="space-y-6 max-w-md mx-auto">
           {/* Game Grid */}
           {dailyPuzzleData && (
@@ -291,7 +291,7 @@ Can you beat my time? Play now:`;
   // Logged in user view
   return (
     <>
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-1 sm:px-4 py-8">
         {/* Game Content */}
         <div className="space-y-6 max-w-lg mx-auto">
           {/* Game Grid */}
