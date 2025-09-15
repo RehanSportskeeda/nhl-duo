@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/LeaderboardTab-BGK944JP.js","assets/react-vendor-Cxdu5FWc.js","assets/vendor-vU7BIIlf.js","assets/firebase-DnFTZRb-.js","assets/DashboardTab-Dlu6oUzV.js","assets/CompletionScreen-OXZSxjJx.js","assets/AuthModal-BdhppWPd.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/LeaderboardTab-B3yOThpW.js","assets/react-vendor-Cxdu5FWc.js","assets/vendor-vU7BIIlf.js","assets/firebase-DnFTZRb-.js","assets/DashboardTab-B-t7cCvY.js","assets/CompletionScreen-1IYF7fnv.js","assets/AuthModal-CRgIlNXA.js"])))=>i.map(i=>d[i]);
 import { r as reactExports, R as React, j as jsxRuntimeExports, X, S as Save, U as User, a as SquarePen, L as LogOut, b as LogIn, c as Undo, d as Lightbulb, e as RotateCcw, A as AlertCircle, C as Calendar, f as Check, H as HelpCircle, g as Share2, h as Archive, T as Trophy, i as createRoot } from "./react-vendor-Cxdu5FWc.js";
 import { i as initializeApp, a as initializeFirestore, g as getAuth, c as connectAuthEmulator, b as connectFirestoreEmulator, o as onAuthStateChanged, G as GoogleAuthProvider, s as signInWithPopup, d as createUserWithEmailAndPassword, u as updateProfile, e as signInWithEmailAndPassword, f as signOut, q as query, h as collection, w as where, j as getDocs, l as limit, T as Timestamp, k as addDoc } from "./firebase-DnFTZRb-.js";
 import "./vendor-vU7BIIlf.js";
@@ -1770,7 +1770,7 @@ const GameTab = ({
   const [showRules, setShowRules] = reactExports.useState(false);
   if (!isLoggedIn) {
     return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-1 sm:px-4 py-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6 max-w-md mx-auto", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-1 sm:px-4 py-8", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-6 max-w-md lg:max-w-sm mx-auto", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6 max-w-lg lg:max-w-md mx-auto", children: [
         dailyPuzzleData && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-white rounded-xl shadow-lg p-6", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mb-6", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
@@ -1955,7 +1955,7 @@ ${fullText}`);
             )
           ] })
         ] })
-      ] }) }),
+      ] }) }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(RulesModal, { isOpen: showRules, onClose: () => setShowRules(false) }),
       showArchive && /* @__PURE__ */ jsxRuntimeExports.jsx(
         ArchivePopup,
@@ -1972,7 +1972,7 @@ ${fullText}`);
     ] });
   }
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-1 sm:px-4 py-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6 max-w-lg mx-auto", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-1 sm:px-4 py-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6 max-w-md lg:max-w-sm mx-auto", children: [
       dailyPuzzleData && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-white rounded-xl shadow-lg p-6", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mb-6", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
@@ -2416,10 +2416,10 @@ const RaptiveSidebarAd = () => {
 const RaptiveFooterAd = () => {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "raptive-pfn-disable-footer-close" });
 };
-const LeaderboardTab = reactExports.lazy(() => __vitePreload(() => import("./LeaderboardTab-BGK944JP.js"), true ? __vite__mapDeps([0,1,2,3]) : void 0).then((module) => ({ default: module.LeaderboardTab })));
-const DashboardTab = reactExports.lazy(() => __vitePreload(() => import("./DashboardTab-Dlu6oUzV.js"), true ? __vite__mapDeps([4,1,2,3]) : void 0));
-const CompletionScreen = reactExports.lazy(() => __vitePreload(() => import("./CompletionScreen-OXZSxjJx.js"), true ? __vite__mapDeps([5,1,2,3]) : void 0));
-const AuthModal = reactExports.lazy(() => __vitePreload(() => import("./AuthModal-BdhppWPd.js"), true ? __vite__mapDeps([6,1,2,3]) : void 0));
+const LeaderboardTab = reactExports.lazy(() => __vitePreload(() => import("./LeaderboardTab-B3yOThpW.js"), true ? __vite__mapDeps([0,1,2,3]) : void 0).then((module) => ({ default: module.LeaderboardTab })));
+const DashboardTab = reactExports.lazy(() => __vitePreload(() => import("./DashboardTab-B-t7cCvY.js"), true ? __vite__mapDeps([4,1,2,3]) : void 0));
+const CompletionScreen = reactExports.lazy(() => __vitePreload(() => import("./CompletionScreen-1IYF7fnv.js"), true ? __vite__mapDeps([5,1,2,3]) : void 0));
+const AuthModal = reactExports.lazy(() => __vitePreload(() => import("./AuthModal-CRgIlNXA.js"), true ? __vite__mapDeps([6,1,2,3]) : void 0));
 function App() {
   const { user, loading: authLoading, logout } = useAuth();
   const [activeTab, setActiveTab] = reactExports.useState("game");

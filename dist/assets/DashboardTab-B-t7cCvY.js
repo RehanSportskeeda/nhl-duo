@@ -1,5 +1,5 @@
 import { r as reactExports, j as jsxRuntimeExports, m as TrendingUp, b as LogIn, C as Calendar, k as Target, l as Clock, d as Lightbulb, h as Archive, T as Trophy } from "./react-vendor-Cxdu5FWc.js";
-import { u as useLeaderboard, c as trackDashboardView, a as trackCTAClick, d as trackPendingGamesClick, A as ArchivePopup, e as trackUserStatsView } from "./index-A2eIOjgz.js";
+import { u as useLeaderboard, c as trackDashboardView, a as trackCTAClick, d as trackPendingGamesClick, A as ArchivePopup, e as trackUserStatsView } from "./index-Bs1D-JHz.js";
 import "./vendor-vU7BIIlf.js";
 import "./firebase-DnFTZRb-.js";
 const DashboardTab = ({

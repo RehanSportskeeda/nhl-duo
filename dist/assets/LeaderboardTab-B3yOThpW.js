@@ -1,5 +1,5 @@
 import { R as React, j as jsxRuntimeExports, T as Trophy, b as LogIn, k as Target, d as Lightbulb, l as Clock } from "./react-vendor-Cxdu5FWc.js";
-import { t as trackLeaderboardView, a as trackCTAClick, b as trackLeaderboardRankView } from "./index-A2eIOjgz.js";
+import { t as trackLeaderboardView, a as trackCTAClick, b as trackLeaderboardRankView } from "./index-Bs1D-JHz.js";
 import "./vendor-vU7BIIlf.js";
 import "./firebase-DnFTZRb-.js";
 const LeaderboardTab = ({

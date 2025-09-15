@@ -1,5 +1,5 @@
 import { r as reactExports, R as React, j as jsxRuntimeExports, X, U as User, M as Mail, n as Lock } from "./react-vendor-Cxdu5FWc.js";
-import { i as useAuth } from "./index-A2eIOjgz.js";
+import { i as useAuth } from "./index-Bs1D-JHz.js";
 import "./vendor-vU7BIIlf.js";
 import "./firebase-DnFTZRb-.js";
 const AuthModal = ({ onClose }) => {

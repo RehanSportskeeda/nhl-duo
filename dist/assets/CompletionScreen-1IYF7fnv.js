@@ -1,5 +1,5 @@
 import { r as reactExports, R as React, j as jsxRuntimeExports, X, b as LogIn, T as Trophy, g as Share2, h as Archive } from "./react-vendor-Cxdu5FWc.js";
-import { f as trackCompletionScreenView, g as trackCompletionScreenAction, a as trackCTAClick, A as ArchivePopup, H as HINT_PENALTY_SECONDS, h as trackShare } from "./index-A2eIOjgz.js";
+import { f as trackCompletionScreenView, g as trackCompletionScreenAction, a as trackCTAClick, A as ArchivePopup, H as HINT_PENALTY_SECONDS, h as trackShare } from "./index-Bs1D-JHz.js";
 import "./vendor-vU7BIIlf.js";
 import "./firebase-DnFTZRb-.js";
 const CompletionScreen = ({ gameStats, onPlayArchive, availablePuzzles, isLoggedIn, onShowLogin, onShowLeaderboard, userId, onClose }) => {
@@ -95,7 +95,7 @@ ${fullText}`);
         }
       ),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-center gap-3 mb-2", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xl", children: "🏀" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xl", children: "🏒" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-bold text-white", children: "Game Completed!" })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex items-center justify-center gap-2", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-100 text-lg font-medium", children: "Puzzle Solved!" }) })
