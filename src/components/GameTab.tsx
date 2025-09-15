@@ -210,7 +210,7 @@ Can you beat my time? Play now:`;
                     if (navigator.share) {
                       try {
                         await navigator.share({
-                          title: 'NBA Duo',
+                          title: 'NHL Duo',
                           text: shareText,
                           url: gameUrl,
                         });
@@ -440,7 +440,7 @@ Can you beat my time? Play now:`;
                     if (navigator.share) {
                       try {
                         await navigator.share({
-                          title: 'NBA Duo',
+                          title: 'NHL Duo',
                           text: shareText,
                           url: gameUrl,
                         });
