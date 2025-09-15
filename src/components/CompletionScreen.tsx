@@ -126,7 +126,7 @@ Can you beat my time? Play now:`;
           </button>
           
           <div className="flex items-center justify-center gap-3 mb-2">
-            <span className="text-xl">🏀</span>
+            <span className="text-xl">🏒</span>
             <h2 className="text-2xl font-bold text-white">Game Completed!</h2>
           </div>
           <div className="flex items-center justify-center gap-2">
