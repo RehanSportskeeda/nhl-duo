@@ -15,15 +15,15 @@ interface SEOHeadProps {
 }
 
 export function SEOHead({
-  title = 'NBA Duo - Daily Basketball Grid Game',
-  description = "NBA Duo is a fun, brain-teasing puzzle where you fill the grid by following logical rules. It's perfect for NBA fans who love a good challenge!",
-  image = 'https://www.profootballnetwork.com/games/nba-duo/nba-duo-og-image.png',
-  url = typeof window !== 'undefined' ? window.location.href : 'https://www.profootballnetwork.com/games/nba-duo/',
+  title = 'NHL Duo - Daily Hockey Grid Game',
+  description = "NHL Duo is a fun, brain-teasing puzzle where you fill the grid by following logical rules. It's perfect for NHL fans who love a good challenge!",
+  image = 'https://www.profootballnetwork.com/games/nhl-duo/nhl-duo-og-image.png',
+  url = typeof window !== 'undefined' ? window.location.href : 'https://www.profootballnetwork.com/games/nhl-duo/',
   type = 'website',
   siteName = 'Pro Football Network',
   twitterCard = 'summary_large_image',
   twitterSite = '@PFSN365',
-  keywords = 'NBA game, NBA daily challenge, basketball puzzle, NBA grid game, daily NBA game',
+  keywords = 'NHL game, NHL daily challenge, hockey puzzle, NHL grid game, daily NHL game',
   author = 'PFSN',
   canonical
 }: SEOHeadProps) {
@@ -60,7 +60,7 @@ export function SEOHead({
     updateMetaTag('og:title', title, true);
     updateMetaTag('og:description', description, true);
     const currentUrl = typeof window !== 'undefined' ? window.location.href : url;
-    updateMetaTag('og:image', image.startsWith('http') ? image : `https://www.profootballnetwork.com/games/nba-duo${image}`, true);
+    updateMetaTag('og:image', image.startsWith('http') ? image : `https://www.profootballnetwork.com/games/nhl-duo${image}`, true);
     updateMetaTag('og:url', currentUrl, true);
     updateMetaTag('og:type', type, true);
     updateMetaTag('og:site_name', siteName, true);
@@ -70,7 +70,7 @@ export function SEOHead({
     updateMetaTag('twitter:card', twitterCard);
     updateMetaTag('twitter:title', title);
     updateMetaTag('twitter:description', description);
-    updateMetaTag('twitter:image', image.startsWith('http') ? image : `https://www.profootballnetwork.com/games/nba-duo${image}`);
+    updateMetaTag('twitter:image', image.startsWith('http') ? image : `https://www.profootballnetwork.com/games/nhl-duo${image}`);
     updateMetaTag('twitter:site', twitterSite);
     updateMetaTag('twitter:creator', twitterSite);
 
@@ -153,7 +153,7 @@ export function SEOHead({
         },
         {
           '@type': 'SiteNavigationElement', 
-          'name': 'NBA Duo',
+          'name': 'NHL Duo',
           'url': currentUrl,
           'position': 2
         }

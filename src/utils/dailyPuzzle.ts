@@ -4,17 +4,17 @@ export interface DailyPuzzleData {
   preFilledCells: Array<{
     row: number;
     col: number;
-    value: 'basket-hoop' | 'basketball';
+    value: 'goal' | 'stick';
   }>;
   constraints: Array<{
     type: 'equal' | 'different';
     cell1: [number, number];
     cell2: [number, number];
   }>;
-  solution: ('basket-hoop' | 'basketball')[][];
+  solution: ('goal' | 'stick')[][];
 }
 
-const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQXrwTxkBTG8ymHlqL4BH2ivHdMt6GqQA4RIOa0osYW6zK93AUnPRKT9GKKKOvCybIXfwhsPR2pY7nz/pub?gid=317258174&single=true&output=csv';
+const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQXrwTxkBTG8ymHlqL4BH2ivHdMt6GqQA4RIOa0osYW6zK93AUnPRKT9GKKKOvCybIXfwhsPR2pY7nz/pub?gid=580450764&single=true&output=csv';
 
 export const fetchDailyPuzzle = async (): Promise<DailyPuzzleData | null> => {
   try {

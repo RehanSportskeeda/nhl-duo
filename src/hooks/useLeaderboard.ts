@@ -9,7 +9,7 @@ import {
   where,
   Timestamp
 } from 'firebase/firestore';
-import { nbaDb } from '../config/firebase';
+import { nhlDb } from '../config/firebase';
 import { GameStats } from '../types/game';
 
 interface LeaderboardEntry {
@@ -70,7 +70,7 @@ export const useLeaderboard = () => {
       
       // Get ALL entries for this date from the new collection structure
       const allEntriesQuery = query(
-        collection(nbaDb, 'nba-duo'),
+        collection(nhlDb, 'nhl-duo'),
         where('puzzleDate', '==', date)
       );
       
@@ -122,7 +122,7 @@ export const useLeaderboard = () => {
       
       // Check if user already has a score for this puzzle date
       const existingScoreQuery = query(
-        collection(nbaDb, 'nba-duo'),
+        collection(nhlDb, 'nhl-duo'),
         where('userId', '==', userId),
         where('puzzleDate', '==', puzzleDate),
         limit(1)
@@ -146,6 +146,7 @@ export const useLeaderboard = () => {
       };
       
       const docRef = await addDoc(collection(nbaDb, 'nba-duo'), leaderboardEntry);
+      const docRef = await addDoc(collection(nhlDb, 'nhl-duo'), leaderboardEntry);
       
     } catch (error: any) {
       // Handle specific Firebase errors gracefully
@@ -165,7 +166,7 @@ export const useLeaderboard = () => {
     try {
       // Get ALL entries for this date to calculate accurate rank
       const allEntriesQuery = query(
-        collection(nbaDb, 'nba-duo'),
+        collection(nhlDb, 'nhl-duo'),
         where('puzzleDate', '==', puzzleDate)
       );
       
@@ -205,7 +206,7 @@ export const useLeaderboard = () => {
   const getUserCompletedDates = async (userId: string): Promise<string[]> => {
     try {
       const userEntriesQuery = query(
-        collection(nbaDb, 'nba-duo'),
+        collection(nhlDb, 'nhl-duo'),
         where('userId', '==', userId)
       );
       
@@ -230,7 +231,7 @@ export const useLeaderboard = () => {
     try {
       // Get all user entries
       const userEntriesQuery = query(
-       collection(nbaDb, 'nba-duo'),
+       collection(nhlDb, 'nhl-duo'),
         where('userId', '==', userId)
       );
       

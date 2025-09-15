@@ -89,13 +89,13 @@ const PFSNFooter: React.FC<FooterProps> = ({ currentPage = 'NHL' }) => {
 
               <h3 className="footer-column-title footer-subheading">NBA Tools</h3>
               <ul className="footer-links">
-                <li><a href="https://www.profootballnetwork.com/nba-mock-draft-simulator">NBA Mock Draft Simulator</a></li>
-                <li><a href="https://www.profootballnetwork.com/nba-player-guessing-game">NBA Player Guessing Game</a></li>
+                <li><a href="https://www.profootballnetwork.com/nhl-mock-draft-simulator">NHL Mock Draft Simulator</a></li>
+                <li><a href="https://www.profootballnetwork.com/nhl-player-guessing-game">NHL Player Guessing Game</a></li>
               </ul>
 
-              <h3 className="footer-column-title footer-subheading">NBA Games</h3>
+              <h3 className="footer-column-title footer-subheading">NHL Games</h3>
               <ul className="footer-links">
-                <li className="current-page"><a href="/">NBA Duo</a></li>
+                <li className="current-page"><a href="/">NHL Duo</a></li>
               </ul>
             </div>
           </div>

@@ -311,7 +311,7 @@ function App() {
       {/* SEO Meta Tags */}
       <SEOHead />
       {/* PFSN Header */}
-      <PFSNHeader currentPage="NBA" />
+      <PFSNHeader currentPage="NHL" />
 
       {/* Game Navigation Bar */}
       <TopBar

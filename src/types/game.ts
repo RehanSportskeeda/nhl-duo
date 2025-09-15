@@ -1,6 +1,6 @@
 import React from 'react';
 
-export type CellValue = 'basket-hoop' | 'basketball' | null;
+export type CellValue = 'goal' | 'stick' | null;
 export type ConstraintType = 'equal' | 'different';
 
 export interface Cell {

@@ -1,5 +1,4 @@
 import React from 'react';
-import BasketHoopIcon from './BasketHoopIcon';
 import { Cell, CellValue, ConstraintType } from '../types/game';
 
 interface GameGridProps {
@@ -30,10 +29,10 @@ const GameGrid: React.FC<GameGridProps> = ({
   };
 
   const renderCellContent = (cell: Cell) => {
-    if (cell.value === 'basket-hoop') {
-      return <BasketHoopIcon className="w-8 h-8 sm:w-10 sm:h-10" />;
-    } else if (cell.value === 'basketball') {
-      return <span className="text-2xl sm:text-3xl">🏀</span>;
+    if (cell.value === 'goal') {
+      return <span className="text-2xl sm:text-3xl">🥅</span>;
+    } else if (cell.value === 'stick') {
+      return <span className="text-2xl sm:text-3xl">🏒</span>;
     }
     return null;
   };

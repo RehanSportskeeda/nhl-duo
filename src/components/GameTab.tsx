@@ -192,7 +192,7 @@ const GameTab: React.FC<GameTabProps> = ({
                 <button
                   onClick={async () => {
                     trackCTAClick('share', 'game_bottom_results_guest', false);
-                    const timeTaken = gameStats.totalTime ? 
+                    const shareText = `🏒 Just solved today's NHL Duo in ${timeTaken}! 🏒
                       (() => {
                         const seconds = Math.floor(gameStats.totalTime / 1000);
                         const minutes = Math.floor(seconds / 60);
@@ -430,7 +430,7 @@ Can you beat my time? Play now:`;
                         return minutes > 0 ? `${minutes}m ${remainingSeconds}s` : `${remainingSeconds}s`;
                       })() : '0s';
                     
-                    const shareText = `🏀 Just solved today's NBA Duo in ${timeTaken}! 🏀
+                    const shareText = `🏒 Just solved today's NHL Duo in ${timeTaken}! 🏒
 
   ⚡ ${gameStats.moves} moves
   💡 ${gameStats.hintsUsed} hints used

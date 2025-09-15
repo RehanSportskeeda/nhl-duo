@@ -29,7 +29,7 @@ const TopBar: React.FC<TopBarProps> = ({
           <div className="flex items-center justify-between relative">
             {/* Game Name - desktop only */}
             <div className="hidden md:block">
-              <h1 className="text-xl font-bold text-white">NBA Duo</h1>
+              <h1 className="text-xl font-bold text-white">NHL Duo</h1>
             </div>
 
             {/* Tabs - centered on mobile, left-aligned on desktop */}
