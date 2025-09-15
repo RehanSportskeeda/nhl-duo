@@ -82,7 +82,7 @@ const GameTab: React.FC<GameTabProps> = ({
                       }
                     </h3>
                     <p className="text-gray-600">
-                      Fill the grid with <BasketHoopIcon className="w-5 h-5 inline" /> and 🏀
+                      Fill the grid with 🥅 and 🏒
                     </p>
                   </div>
                   <button
@@ -312,7 +312,7 @@ Can you beat my time? Play now:`;
                       }
                     </h3>
                     <p className="text-gray-600">
-                      Fill the grid with <BasketHoopIcon className="w-5 h-5 inline" /> and 🏀
+                      Fill the grid with 🥅 and 🏒
                     </p>
                   </div>
                     <button
