@@ -181,7 +181,7 @@ audio, canvas, embed, iframe:not([id^="google_ads_iframe"]), img, object, svg, v
 }
 
 /* Mobile Responsive */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .pfsn-header-container {
     min-height: 45px;
     padding: 0 8px;
@@ -374,7 +374,7 @@ audio, canvas, embed, iframe:not([id^="google_ads_iframe"]), img, object, svg, v
 }
 
 /* Responsive adjustments */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .footer-columns {
     grid-template-columns: 1fr;
     gap: 30px;
@@ -420,7 +420,7 @@ audio, canvas, embed, iframe:not([id^="google_ads_iframe"]), img, object, svg, v
   z-index: 9999 !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .raptive-pfn-disable-footer-close {
     height: 92px !important;
   }
@@ -438,7 +438,7 @@ body {
   padding-bottom: 92px; /* Account for footer ad height */
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   body {
     padding-bottom: 92px; /* Footer ad height on mobile */
   }
