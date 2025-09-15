@@ -145,7 +145,6 @@ export const useLeaderboard = () => {
         completedAt: Timestamp.now(),
       };
       
-      const docRef = await addDoc(collection(nbaDb, 'nba-duo'), leaderboardEntry);
       const docRef = await addDoc(collection(nhlDb, 'nhl-duo'), leaderboardEntry);
       
     } catch (error: any) {
