@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { HelpCircle, Share2, Archive, Trophy, LogIn } from 'lucide-react';
-import BasketHoopIcon from './BasketHoopIcon';
 import { DailyPuzzleData } from '../utils/dailyPuzzle';
 import { GameState, GameStats } from '../types/game';
 import GameGrid from './GameGrid';
