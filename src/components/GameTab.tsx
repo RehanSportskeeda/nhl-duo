@@ -294,7 +294,7 @@ Can you beat my time? Play now:`;
     <>
       <div className="container mx-auto px-1 sm:px-4 py-8">
         {/* Game Content */}
-        <div className="space-y-6 max-w-lg mx-auto">
+        <div className="space-y-6 max-w-md lg:max-w-sm mx-auto">
           {/* Game Grid */}
           {dailyPuzzleData && (
             <div className="bg-white rounded-xl shadow-lg p-6">
