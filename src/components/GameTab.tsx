@@ -62,8 +62,8 @@ const GameTab: React.FC<GameTabProps> = ({
   if (!isLoggedIn) {
     return (
       <>
-        <div className="container mx-auto px-2 py-8">
-          <div className="space-y-6 max-w-xl mx-auto">
+        <div className="container mx-auto px-4 py-8">
+          <div className="space-y-6 max-w-md mx-auto">
           {/* Game Grid */}
           {dailyPuzzleData && (
             <div className="bg-white rounded-xl shadow-lg p-6">
@@ -82,7 +82,7 @@ const GameTab: React.FC<GameTabProps> = ({
                       }
                     </h3>
                     <p className="text-gray-600">
-                      Fill the grid with 🥅 and 🏒
+                      Fill the grid with <BasketHoopIcon className="w-5 h-5 inline" /> and 🏀
                     </p>
                   </div>
                   <button
@@ -210,7 +210,7 @@ Can you beat my time? Play now:`;
                     if (navigator.share) {
                       try {
                         await navigator.share({
-                          title: 'NHL Duo',
+                          title: 'NBA Duo',
                           text: shareText,
                           url: gameUrl,
                         });
@@ -291,9 +291,9 @@ Can you beat my time? Play now:`;
   // Logged in user view
   return (
     <>
-      <div className="container mx-auto px-2 py-8">
+      <div className="container mx-auto px-4 py-8">
         {/* Game Content */}
-        <div className="space-y-6 max-w-xl mx-auto">
+        <div className="space-y-6 max-w-lg mx-auto">
           {/* Game Grid */}
           {dailyPuzzleData && (
             <div className="bg-white rounded-xl shadow-lg p-6">
@@ -312,7 +312,7 @@ Can you beat my time? Play now:`;
                       }
                     </h3>
                     <p className="text-gray-600">
-                      Fill the grid with 🥅 and 🏒
+                      Fill the grid with <BasketHoopIcon className="w-5 h-5 inline" /> and 🏀
                     </p>
                   </div>
                     <button
@@ -440,7 +440,7 @@ Can you beat my time? Play now:`;
                     if (navigator.share) {
                       try {
                         await navigator.share({
-                          title: 'NHL Duo',
+                          title: 'NBA Duo',
                           text: shareText,
                           url: gameUrl,
                         });
