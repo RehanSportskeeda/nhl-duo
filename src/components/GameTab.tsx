@@ -63,8 +63,8 @@ const GameTab: React.FC<GameTabProps> = ({
     return (
       <>
         <div className="container mx-auto px-1 sm:px-4 py-8">
-          <div className="space-y-6 max-w-md mx-auto">
-          {/* Game Grid */}
+          <div className="space-y-6 max-w-md lg:max-w-sm mx-auto">
+          <div className="space-y-6 max-w-lg lg:max-w-md mx-auto">
           {dailyPuzzleData && (
             <div className="bg-white rounded-xl shadow-lg p-6">
               {/* Current Puzzle Info */}
